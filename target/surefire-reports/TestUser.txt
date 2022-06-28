@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestUser
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE!
+TestUser.testValidateUser_throwsAccessDeniedException()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at TestUser.testValidateUser_throwsAccessDeniedException(TestUser.java:28)
+
+TestUser.test_NotNull_GetterLogin()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "User.getLogin()" because "this.user" is null
+	at TestUser.test_NotNull_GetterLogin(TestUser.java:35)
+
